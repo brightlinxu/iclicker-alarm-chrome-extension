@@ -1,6 +1,6 @@
 # iClicker Chrome Extension
 
-Hey everyone! I built this chrome extension so that I could be reminded every time a new iClicker question is in progress.
+Hey everyone! I built this chrome extension to sound an alarm every time a new iClicker question is in progress.
 
 ## Getting started
 
