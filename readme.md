@@ -1,29 +1,11 @@
-# Chrome Extension boilerplate created with React Typescript
+# iClicker Chrome Extension
+
+Hey everyone! I built this chrome extension so that I could be reminded every time a new iClicker question is in progress.
 
 ## Getting started
 
-Create a project based on this boilerplate.
+Coming soon...
 
-```
-$ npx degit https://github.com/sivertschou/react-typescript-chrome-extension-boilerplate.git#christmas <project-name>
-```
+## How it works
 
-Navigate to the project directory and install the dependencies.
-
-```
-$ npm install
-```
-
-To build the extension, and rebuild it when the files are changed, run
-
-```
-$ npm start
-```
-
-After the project has been built, a directory named `dist` has been created. You have to add this directory to your Chrome browser:
-
-1. Open Chrome.
-2. Navigate to `chrome://extensions`.
-3. Enable _Developer mode_.
-4. Click _Load unpacked_.
-5. Select the `dist` directory.
+This chrome extension looks for DOM changes on the iClicker website using Mutation Observers. When an active question pops up, the script looks for id=TODO that's inserted into the DOM (this means a new question is active). Once a new question is active, an alarm will sound.
