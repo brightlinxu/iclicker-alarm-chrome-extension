@@ -1,6 +1,6 @@
 {
-    "name": "iclicker-watcher",
-    "description": "Description for extension (CHANGE LATER)",
+    "name": "iClicker Watcher",
+    "description": "Sound an alarm whenever a new question is posted during a class session",
     "manifest_version": 3,
     "version": "1.0.0",
     "icons": {
